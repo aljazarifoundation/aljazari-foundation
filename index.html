@@ -7,53 +7,66 @@
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
         body { background: url('background.jpg') no-repeat center center fixed; background-size: cover; color: white; text-align: center; }
-        header { background: rgba(44, 62, 80, 0.8); padding: 40px; }
+        .iphone-frame {
+            width: 430px;
+            height: 932px;
+            margin: 50px auto;
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 40px;
+            border: 10px solid rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            overflow: hidden;
+            box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.3);
+        }
+        header { background: rgba(44, 62, 80, 0.8); padding: 20px; border-radius: 30px 30px 0 0; }
         .container { max-width: 900px; margin: auto; padding: 20px; }
-        section { padding: 50px 20px; }
+        section { padding: 30px 20px; }
         .portfolio { display: grid; gap: 20px; }
         .portfolio div { background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 10px; }
         .icon { font-size: 50px; margin-bottom: 20px; }
-        footer { background: rgba(44, 62, 80, 0.8); padding: 20px; }
+        footer { background: rgba(44, 62, 80, 0.8); padding: 20px; border-radius: 0 0 30px 30px; }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Al-Jazari Foundation</h1>
-        <p>Advancing Technological Innovation for the Future</p>
-    </header>
-    <div class="container">
-        <section id="about">
-            <h2><span class="icon">⚛️</span> About Us</h2>
-            <p>The Al-Jazari Foundation is an organization dedicated to technological innovation and education.</p>
-        </section>
-        <section id="portfolio">
-            <h2><span class="icon">🔬</span> Our Portfolio</h2>
-            <div class="portfolio">
-                <div>
-                    <h3>My Journey</h3>
-                    <p>A history of contributions in technology and innovation.</p>
+    <div class="iphone-frame">
+        <header>
+            <h1>Al-Jazari Foundation</h1>
+            <p>Advancing Technological Innovation for the Future</p>
+        </header>
+        <div class="container">
+            <section id="about">
+                <h2><span class="icon">⚛️</span> About Us</h2>
+                <p>The Al-Jazari Foundation is an organization dedicated to technological innovation and education.</p>
+            </section>
+            <section id="portfolio">
+                <h2><span class="icon">🔬</span> Our Portfolio</h2>
+                <div class="portfolio">
+                    <div>
+                        <h3>My Journey</h3>
+                        <p>A history of contributions in technology and innovation.</p>
+                    </div>
+                    <div>
+                        <h3>ISO 20022 Implementation</h3>
+                        <p>Experience in ISO 20022 message validation, integration, and automation.</p>
+                    </div>
+                    <div>
+                        <h3>Performance Testing</h3>
+                        <p>Expertise in JMeter, service virtualization, and load testing for high-performance systems.</p>
+                    </div>
+                    <div>
+                        <h3>Smart Card Technology</h3>
+                        <p>Proficiency in ISO 7816 and secure authentication systems.</p>
+                    </div>
                 </div>
-                <div>
-                    <h3>ISO 20022 Implementation</h3>
-                    <p>Experience in ISO 20022 message validation, integration, and automation.</p>
-                </div>
-                <div>
-                    <h3>Performance Testing</h3>
-                    <p>Expertise in JMeter, service virtualization, and load testing for high-performance systems.</p>
-                </div>
-                <div>
-                    <h3>Smart Card Technology</h3>
-                    <p>Proficiency in ISO 7816 and secure authentication systems.</p>
-                </div>
-            </div>
-        </section>
-        <section id="contact">
-            <h2><span class="icon">📩</span> Contact Us</h2>
-            <p>Email: info@aljazari.org</p>
-        </section>
+            </section>
+            <section id="contact">
+                <h2><span class="icon">📩</span> Contact Us</h2>
+                <p>Email: aljazari.foundation@gmail.com</p>
+            </section>
+        </div>
+        <footer>
+            <p>&copy; 2025 Al-Jazari Foundation</p>
+        </footer>
     </div>
-    <footer>
-        <p>&copy; 2025 Al-Jazari Foundation</p>
-    </footer>
 </body>
 </html>
