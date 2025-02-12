@@ -1,56 +1,54 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Al-Jazari Foundation</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
-        body { background-color: #f4f4f4; color: #333; }
-        header { background: #2c3e50; color: white; padding: 20px; text-align: center; }
-        nav { display: flex; justify-content: center; background: #34495e; padding: 10px; }
-        nav a { color: white; text-decoration: none; padding: 10px 20px; }
-        nav a:hover { background: #1abc9c; }
-        .container { max-width: 1100px; margin: auto; padding: 20px; text-align: center; }
-        .portfolio { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
-        .portfolio div { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-        footer { background: #2c3e50; color: white; text-align: center; padding: 10px; margin-top: 20px; }
+        body { background: url('background.jpg') no-repeat center center fixed; background-size: cover; color: white; text-align: center; }
+        header { background: rgba(44, 62, 80, 0.8); padding: 40px; }
+        .container { max-width: 900px; margin: auto; padding: 20px; }
+        section { padding: 50px 20px; }
+        .portfolio { display: grid; gap: 20px; }
+        .portfolio div { background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 10px; }
+        .icon { font-size: 50px; margin-bottom: 20px; }
+        footer { background: rgba(44, 62, 80, 0.8); padding: 20px; }
     </style>
 </head>
 <body>
     <header>
         <h1>Al-Jazari Foundation</h1>
-        <p>Mengembangkan Inovasi Teknologi untuk Masa Depan</p>
+        <p>Advancing Technological Innovation for the Future</p>
     </header>
-    <nav>
-        <a href="#about">Tentang Kami</a>
-        <a href="#portfolio">Portofolio</a>
-        <a href="#contact">Kontak</a>
-    </nav>
     <div class="container">
         <section id="about">
-            <h2>Tentang Kami</h2>
-            <p>Al-Jazari Foundation adalah organisasi yang berfokus pada inovasi teknologi dan pendidikan.</p>
+            <h2><span class="icon">⚛️</span> About Us</h2>
+            <p>The Al-Jazari Foundation is an organization dedicated to technological innovation and education.</p>
         </section>
         <section id="portfolio">
-            <h2>Portofolio Kami</h2>
+            <h2><span class="icon">🔬</span> Our Portfolio</h2>
             <div class="portfolio">
                 <div>
-                    <h3>Proyek 1</h3>
-                    <p>Deskripsi singkat proyek.</p>
+                    <h3>My Journey</h3>
+                    <p>A history of contributions in technology and innovation.</p>
                 </div>
                 <div>
-                    <h3>Proyek 2</h3>
-                    <p>Deskripsi singkat proyek.</p>
+                    <h3>ISO 20022 Implementation</h3>
+                    <p>Experience in ISO 20022 message validation, integration, and automation.</p>
                 </div>
                 <div>
-                    <h3>Proyek 3</h3>
-                    <p>Deskripsi singkat proyek.</p>
+                    <h3>Performance Testing</h3>
+                    <p>Expertise in JMeter, service virtualization, and load testing for high-performance systems.</p>
+                </div>
+                <div>
+                    <h3>Smart Card Technology</h3>
+                    <p>Proficiency in ISO 7816 and secure authentication systems.</p>
                 </div>
             </div>
         </section>
         <section id="contact">
-            <h2>Hubungi Kami</h2>
+            <h2><span class="icon">📩</span> Contact Us</h2>
             <p>Email: info@aljazari.org</p>
         </section>
     </div>
