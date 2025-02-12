@@ -5,27 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Al-Jazari Foundation</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
-        h1 { color: #2c3e50; }
-        p { color: #34495e; }
-        .container { max-width: 800px; margin: auto; }
-        footer { margin-top: 20px; font-size: 14px; color: #777; }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { background-color: #f4f4f4; color: #333; }
+        header { background: #2c3e50; color: white; padding: 20px; text-align: center; }
+        nav { display: flex; justify-content: center; background: #34495e; padding: 10px; }
+        nav a { color: white; text-decoration: none; padding: 10px 20px; }
+        nav a:hover { background: #1abc9c; }
+        .container { max-width: 1100px; margin: auto; padding: 20px; text-align: center; }
+        .portfolio { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+        .portfolio div { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        footer { background: #2c3e50; color: white; text-align: center; padding: 10px; margin-top: 20px; }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Al-Jazari Foundation</h1>
+        <p>Mengembangkan Inovasi Teknologi untuk Masa Depan</p>
+    </header>
+    <nav>
+        <a href="#about">Tentang Kami</a>
+        <a href="#portfolio">Portofolio</a>
+        <a href="#contact">Kontak</a>
+    </nav>
     <div class="container">
-        <h1>Selamat Datang di Al-Jazari Foundation</h1>
-        <p>Organisasi yang berfokus pada inovasi, teknologi, dan pendidikan.</p>
-        <img src="https://via.placeholder.com/600x300" alt="Al-Jazari Foundation">
-        <h2>Visi & Misi</h2>
-        <p>Menjadikan teknologi sebagai solusi bagi masyarakat melalui inovasi dan pendidikan.</p>
-        <h2>Program Kami</h2>
-        <ul>
-            <li>Pendidikan Teknologi</li>
-            <li>Riset & Inovasi</li>
-            <li>Pengembangan Software</li>
-        </ul>
-        <footer>© 2025 Al-Jazari Foundation</footer>
+        <section id="about">
+            <h2>Tentang Kami</h2>
+            <p>Al-Jazari Foundation adalah organisasi yang berfokus pada inovasi teknologi dan pendidikan.</p>
+        </section>
+        <section id="portfolio">
+            <h2>Portofolio Kami</h2>
+            <div class="portfolio">
+                <div>
+                    <h3>Proyek 1</h3>
+                    <p>Deskripsi singkat proyek.</p>
+                </div>
+                <div>
+                    <h3>Proyek 2</h3>
+                    <p>Deskripsi singkat proyek.</p>
+                </div>
+                <div>
+                    <h3>Proyek 3</h3>
+                    <p>Deskripsi singkat proyek.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Hubungi Kami</h2>
+            <p>Email: info@aljazari.org</p>
+        </section>
     </div>
+    <footer>
+        <p>&copy; 2025 Al-Jazari Foundation</p>
+    </footer>
 </body>
 </html>
